@@ -1,0 +1,27 @@
+{
+    "name": "masterton/php-analysis-sdk",
+    "description": "Chinese Word Segmentation SDK for PHP",
+    "keywords": [ "segmentation", "analysis", "sdk" ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://www.phpbone.com/phpanalysis/",
+    "authors": [
+        {
+            "name": "Masterton",
+            "homepage": "http://slim.zhengss.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PHPAnalysis\\": "src/",
+            "PHPAnalysis\\Test\\": "tests/"
+        }
+    }
+}
